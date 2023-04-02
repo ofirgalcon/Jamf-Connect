@@ -1,0 +1,37 @@
+{
+    "column": {
+        "display_name": "Display name",
+        "jamf_connect_id": "Jamf Connect ID",
+        "password_last_changed": "Password last changed",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "locale": "Locale",
+        "login": "Login",
+        "time_zone": "Time zone",
+        "last_analytics_checkin": "Last analytics checkin",
+        "last_sign_in": "Last sign in",
+        "last_license_check": "Last license check",
+        "password_current": "Password current"
+    },
+    "listing": {
+        "title": "Jamf Connect"
+    },
+    "report": {
+        "title": "Jamf Connect"
+    },
+    "title": "Jamf Connect",
+    "widget": {
+        "display_name_title": "Display name",
+        "jamf_connect_id_title": "Jamf Connect ID",
+        "password_last_changed_title": "Password last changed",
+        "first_name_title": "First name",
+        "last_name_title": "Last name",
+        "locale_title": "Locale",
+        "login_title": "Login",
+        "time_zone_title": "Time zone",
+        "last_analytics_checkin_title": "Last analytics checkin",
+        "last_sign_in_title": "Last sign in",
+        "last_license_check_title": "Last license check",
+        "password_current_title": "Password current"
+    }
+}

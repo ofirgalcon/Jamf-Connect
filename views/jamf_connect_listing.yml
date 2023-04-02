@@ -1,0 +1,27 @@
+i18n_title: jamf_connect.listing.title
+js_link: module/jamf_connect/js/jamf_connect
+table:
+    -   column: machine.computer_name
+        i18n_header: listing.computername
+        formatter: clientDetail
+        tab_link: jamf_connect
+    -   column: reportdata.serial_number
+        i18n_header: serial
+    -   column: jamf_connect.display_name
+        i18n_header: jamf_connect.column.display_name
+    -   column: jamf_connect.password_current
+        i18n_header: jamf_connect.column.password_current
+        formatter: formatJCYesNoNice
+        filter: password_current
+    -   column: jamf_connect.password_last_changed
+        i18n_header: jamf_connect.column.password_last_changed
+    -   column: jamf_connect.first_name
+        i18n_header: jamf_connect.column.first_name
+    -   column: jamf_connect.last_name
+        i18n_header: jamf_connect.column.last_name
+    -   column: jamf_connect.login
+        i18n_header: jamf_connect.column.login
+    -   column: jamf_connect.time_zone
+        i18n_header: jamf_connect.column.time_zone
+    -   column: jamf_connect.last_sign_in
+        i18n_header: jamf_connect.column.last_sign_in

@@ -1,0 +1,15 @@
+client_tabs:
+    jamf_connect:
+        view: jamf_connect_tab
+        i18n: jamf_connect.title
+listings:
+    jamf_connect:
+        view: jamf_connect_listing
+        i18n: jamf_connect.listing.title
+reports:
+    jamf_connect:
+        view: jamf_connect_report
+        i18n: jamf_connect.report.title
+widgets:
+    jamf_connect_password_current:
+        view: jamf_connect_password_current_widget
