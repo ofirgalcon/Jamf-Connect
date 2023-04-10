@@ -22,6 +22,7 @@ class Jamf_connect_model extends Eloquent
       'last_sign_in',
       'last_license_check',
       'password_current',
+      'version',
 
     ];
 }

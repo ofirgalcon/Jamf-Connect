@@ -1,17 +1,18 @@
 {
     "column": {
-        "display_name": "Display name",
+        "display_name": "Display Name",
         "jamf_connect_id": "Jamf Connect ID",
-        "password_last_changed": "Password last changed",
-        "first_name": "First name",
-        "last_name": "Last name",
+        "password_last_changed": "Password Last Changed",
+        "first_name": "First Name",
+        "last_name": "Last Name",
         "locale": "Locale",
         "login": "Login",
-        "time_zone": "Time zone",
-        "last_analytics_checkin": "Last analytics checkin",
-        "last_sign_in": "Last sign in",
-        "last_license_check": "Last license check",
-        "password_current": "Password current"
+        "time_zone": "Time Zone",
+        "last_analytics_checkin": "Last Analytics Checkin",
+        "last_sign_in": "Last Sign In",
+        "last_license_check": "Last License Check",
+        "password_current": "Password Current",
+        "version": "Version"
     },
     "listing": {
         "title": "Jamf Connect"
@@ -21,17 +22,18 @@
     },
     "title": "Jamf Connect",
     "widget": {
-        "display_name_title": "Display name",
+        "display_name_title": "Display Name",
         "jamf_connect_id_title": "Jamf Connect ID",
-        "password_last_changed_title": "Password last changed",
-        "first_name_title": "First name",
-        "last_name_title": "Last name",
+        "password_last_changed_title": "Password Last Changed",
+        "first_name_title": "First Name",
+        "last_name_title": "Last Name",
         "locale_title": "Locale",
         "login_title": "Login",
-        "time_zone_title": "Time zone",
-        "last_analytics_checkin_title": "Last analytics checkin",
-        "last_sign_in_title": "Last sign in",
-        "last_license_check_title": "Last license check",
-        "password_current_title": "Password current"
+        "time_zone_title": "Time Zone",
+        "last_analytics_checkin_title": "Last Analytics Checkin",
+        "last_sign_in_title": "Last Sign In",
+        "last_license_check_title": "Last License Check",
+        "password_current_title": "Password Current",
+        "version_title": "Jamf Connect Version"
     }
 }

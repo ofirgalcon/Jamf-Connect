@@ -19,5 +19,6 @@ $factory->define(Jamf_connect_model::class, function (Faker\Generator $faker) {
         'last_sign_in' => $faker->word(),
         'last_license_check' => $faker->word(),
         'password_current' => $faker->boolean(),
+        'version' => $faker->word(),
     ];
 });

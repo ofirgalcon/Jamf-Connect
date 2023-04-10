@@ -1,5 +1,6 @@
 i18n_title: jamf_connect.listing.title
 js_link: module/jamf_connect/js/jamf_connect
+not_null_column: version
 table:
     -   column: machine.computer_name
         i18n_header: listing.computername
@@ -21,7 +22,7 @@ table:
         i18n_header: jamf_connect.column.last_name
     -   column: jamf_connect.login
         i18n_header: jamf_connect.column.login
-    -   column: jamf_connect.time_zone
-        i18n_header: jamf_connect.column.time_zone
     -   column: jamf_connect.last_sign_in
         i18n_header: jamf_connect.column.last_sign_in
+    -   column: jamf_connect.version
+        i18n_header: jamf_connect.column.version

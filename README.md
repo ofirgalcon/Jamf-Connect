@@ -18,3 +18,4 @@ Table Schema
 * last_sign_in - VARCHAR(255) - Last sign in
 * last_license_check - VARCHAR(255) - Last license check
 * password_current - VARCHAR(255) - Password current
+* version - VARCHAR(255) - Application verion

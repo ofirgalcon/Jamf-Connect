@@ -13,3 +13,8 @@ reports:
 widgets:
     jamf_connect_password_current:
         view: jamf_connect_password_current_widget
+    jamf_connect_version:
+        view: jamf_connect_version_widget
+
+
+

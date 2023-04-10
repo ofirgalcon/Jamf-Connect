@@ -1,0 +1,8 @@
+type: scrollbox
+widget_id: jamf_connect_version-scrollbox-widget
+api_url: /module/jamf_connect/get_list/version
+i18n_title: jamf_connect.widget.version_title
+icon: fa-sitemap
+listing_link: /show/listing/jamf_connect/jamf_connect
+search_key: label
+badge: count
