@@ -12,13 +12,21 @@
         "last_sign_in": "Last Sign In",
         "last_license_check": "Last License Check",
         "password_current": "Password Current",
-        "version": "Version"
+        "version": "Version",
+        "expiration_warning_last": "Last Expiration Warning",
+        "first_run_done": "First Run Complete",
+        "last_certificate_expiration": "Last Certificate Expiration",
+        "last_totp_notification": "Last TOTP Notification",
+        "offline_mfa_setup_success": "Offline MFA Setup Success",
+        "password_expiration_remaining_days": "Password Expiration (Days)",
+        "unsent_offline_mfa_events": "Unsent Offline MFA Events",
+        "user_login_name": "User Login Name"
     },
     "listing": {
         "title": "Jamf Connect"
     },
     "report": {
-        "title": "Jamf Connect"
+        "title": "Jamf Connect Report"
     },
     "title": "Jamf Connect",
     "widget": {
@@ -34,6 +42,14 @@
         "last_sign_in_title": "Last Sign In",
         "last_license_check_title": "Last License Check",
         "password_current_title": "Password Current",
-        "version_title": "Jamf Connect Version"
+        "version_title": "Jamf Connect Version",
+        "expiration_warning_last_title": "Last Expiration Warning",
+        "first_run_done_title": "First Run Complete",
+        "last_certificate_expiration_title": "Last Certificate Expiration",
+        "last_totp_notification_title": "Last TOTP Notification",
+        "offline_mfa_setup_success_title": "Offline MFA Setup Success",
+        "password_expiration_remaining_days_title": "Password Expiration (Days)",
+        "unsent_offline_mfa_events_title": "Unsent Offline MFA Events",
+        "user_login_name_title": "User Login Name"
     }
 }

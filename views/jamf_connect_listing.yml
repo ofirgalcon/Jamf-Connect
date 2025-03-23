@@ -26,3 +26,21 @@ table:
         i18n_header: jamf_connect.column.last_sign_in
     -   column: jamf_connect.version
         i18n_header: jamf_connect.column.version
+    # -   column: jamf_connect.expiration_warning_last
+    #     i18n_header: jamf_connect.column.expiration_warning_last
+    -   column: jamf_connect.first_run_done
+        i18n_header: jamf_connect.column.first_run_done
+        formatter: formatJCYesNoNice
+    # -   column: jamf_connect.last_certificate_expiration
+        # i18n_header: jamf_connect.column.last_certificate_expiration
+    # -   column: jamf_connect.last_totp_notification
+        # i18n_header: jamf_connect.column.last_totp_notification
+    # -   column: jamf_connect.offline_mfa_setup_success
+        # i18n_header: jamf_connect.column.offline_mfa_setup_success
+        # formatter: formatJCYesNoNice
+    # -   column: jamf_connect.password_expiration_remaining_days
+        # i18n_header: jamf_connect.column.password_expiration_remaining_days
+    # -   column: jamf_connect.unsent_offline_mfa_events
+        # i18n_header: jamf_connect.column.unsent_offline_mfa_events
+    # -   column: jamf_connect.user_login_name
+        # i18n_header: jamf_connect.column.user_login_name

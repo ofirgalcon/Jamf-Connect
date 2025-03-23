@@ -23,6 +23,13 @@ class Jamf_connect_model extends Eloquent
       'last_license_check',
       'password_current',
       'version',
-
+      'expiration_warning_last',
+      'first_run_done',
+      'last_certificate_expiration',
+      'last_totp_notification',
+      'offline_mfa_setup_success',
+      'password_expiration_remaining_days',
+      'unsent_offline_mfa_events',
+      'user_login_name'
     ];
 }

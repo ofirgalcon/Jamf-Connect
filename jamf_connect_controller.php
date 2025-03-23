@@ -21,14 +21,16 @@ class Jamf_connect_controller extends Module_controller
      **/
     public function get_data($serial_number = '')
     {
-        jsonView(
-            Jamf_connect_model::select('jamf_connect.*')
+            $result = Jamf_connect_model::select('jamf_connect.*')
             ->whereSerialNumber($serial_number)
             ->filter()
             ->limit(1)
-            ->first()
-            ->toArray()
-        );
+            ->first();
+        if ($result) {
+            jsonView($result->toArray());
+        } else {
+            jsonView([]);
+        }
     }
 
     public function get_list($column = '')
