@@ -28,6 +28,10 @@ $(document).on('appReady', function(){
             var td;
             if(key === "password_current" || key === "first_run_done") {
               td = $('<td>').html(val == 1 ? '<span class="label label-success">'+i18n.t('yes')+'</span>' : '<span class="label label-danger">'+i18n.t('no')+'</span>');
+            } else if(key === "login") {
+              td = $('<td>').html(val ? 
+                '<a href="mailto:' + val + '" style="text-decoration: none; color: #fff; transition: color 0.2s ease-in-out;" onmouseover="this.style.color=\'#337ab7\'" onmouseout="this.style.color=\'#fff\'"><i class="fa fa-envelope"></i> ' + val + '</a>' : 
+                '');
             } else {
               td = $('<td>').text(val);
             }
